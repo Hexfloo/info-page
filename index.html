@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="app.css" rel="stylesheet">
+
+    <title>Sneezing Dino</title>
+</head>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light shadow-sm" style="background-color:rgb(228, 238, 255)">
+    <div class="container-fluid ms-3">
+        <a class="navbar-brand" href="#top">
+            <img src="dinosaur.png" alt="" width="50" height="45">
+        </a>
+        <a class="navbar-brand text-primary" href="#top">Sneezing Dino</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#top">What's Hapening?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#detection">Early Detection</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#how-to">How To Help</a>
+                </li>
+            </ul>
+            <span class="pe-3">
+                <a class="pe-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                        fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg></a>
+                <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </div>
+</nav>
+
+
+<body class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 bg-light text-center text-lg-start">
+                <h1 class="text-primary display-3 py-4">Some Dinos Sneeze</h1>
+            </div>
+            <div class="col-lg-8 bg-light">
+                <h2 class="text-primary display-7" id="whats-hapening">What's Hapening?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur odit dolorem rem velit?
+                    Dignissimos
+                    quaerat
+                    culpa, ex deserunt amet minus consectetur iusto officiis eaque dolore rerum expedita provident
+                    rem nesciunt.
+                    Vero quidem error aut placeat, laudantium tempora explicabo, dolores obcaecati eius eaque, non
+                    itaque!
+                    Obcaecati
+                    consectetur necessitatibus dolore inventore fugit itaque facere, ratione aspernatur cupiditate
+                    architecto
+                    iusto
+                    nam dicta expedita?
+                    Iure obcaecati expedita consequuntur dolorem rerum in accusamus quam, reiciendis saepe assumenda
+                    repellat modi
+                    enim laboriosam explicabo quod cupiditate veniam magni at sit illo velit harum veritatis odio!
+                    Veritatis,
+                    ducimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima beatae aut soluta, quae
+                    voluptas ratione provident recusandae error vel alias dolores deserunt vitae repellat. Totam
+                    asperiores sequi dolores.
+                </p>
+            </div>
+
+            <div class="col-lg-4 bg-light pt-3">
+                <h2 class="text-primary display-7 pb-2" id="detection">Early Detection</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Says "It's allergies"
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Nam praesentium delectus at modi eligendi vero, officia a
+                                rerum pariatur aut natus molestiae quos consequatur maiores nihil aliquam dolorum atque
+                                obcaecati?
+                                Minima, deleniti porro nostrum doloremque amet excepturi. Exercitationem nihil a enim
+                                omnis dolores incidunt asperiores sunt quasi ipsam tempora soluta repudiandae facilis,
+                                officia hic maxime deserunt ab inventore error dolorum?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Holds a Handkerchief
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Quibusdam animi illo facilis itaque, sit magni doloribus
+                                error amet, id dolorem vel earum provident corporis deserunt, optio porro aliquam.
+                                Eaque, debitis.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Nasally Roars
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Qui, totam! Cumque, excepturi minus! Reprehenderit, et
+                                eius ea voluptas fugit nostrum deleniti, ipsam accusamus eligendi aliquid repudiandae
+                                assumenda laborum placeat possimus.
+                                Omnis alias suscipit reprehenderit excepturi ab fuga doloremque. Ipsa veniam rerum
+                                ratione culpa molestias nulla sed, tenetur nihil ut suscipit aliquid nisi cumque cum
+                                libero, totam recusandae numquam saepe eos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 bg-light pt-3 pb-4">
+                <h2 class="text-primary display-7 pb-2" id="how-to">How To Help</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur odit dolorem rem velit?
+                    Dignissimos
+                    quaerat
+                    culpa, ex deserunt amet minus consectetur iusto officiis eaque dolore rerum expedita provident
+                    rem nesciunt.
+                    Vero quidem error aut placeat, laudantium tempora explicabo, dolores obcaecati eius eaque, non
+                    itaque!
+                    Obcaecati
+                    consectetur necessitatibus dolore inventore fugit itaque facere, ratione aspernatur cupiditate
+                    architecto
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At nesciunt quia ut amet error sit
+                    voluptate laborum sint, doloremque magni! Tempore veniam, nam unde inventore dolor nobis rem maxime
+                    voluptas!
+                    Porro nobis tempore error ipsa cum ea sed facilis culpa assumenda! Quia, sequi animi explicabo
+                    corrupti illum est? Quam, minus. Dolorum mollitia rerum perferendis iusto provident. Quibusdam nam
+                    dolore beate.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nisi corrupti assumenda, ad id,
+                    asperiores veniam itaque ab repellat mollitia autem odio iure sed exercitationem, porro minima
+                    excepturi aliquam optio!
+                    Nobis, doloribus. Ex omnis ratione, est dignissimos eius possimus accusamus nesciunt deleniti odit,
+                    earum facere? Doloribus quis, maxime esse corrupti facilis temporibus labore, accusamus aliquam
+                    dolore, possimus sint fugiat enim.
+                    Reprehenderit neque ipsam, eius quis mollitia veritatis quo, illum non fugit pariatur,
+                    necessitatibus explicabo maxime. Error nobis rem quas, hic totam et distinctio commodi, iure soluta
+                    architecto dignissimos, in ducimus.
+                    Esse, tempore magnam, voluptate nulla beatae in odio voluptatum consectetur exercitationem aperiam
+                    mollitia inventore cupiditate distinctio ipsam. Quis blanditiis consectetur soluta est, repudiandae
+                    sit necessitatibus! Tenetur dolore architecto modi exercitationem!
+                    Recusandae voluptas quasi error dolore reiciendis molestias numquam enim alias suscipit accusantium!
+                    Quisquam eligendi quibusdam officia repudiandae odit, ex voluptates natus, culpa error, reiciendis
+                    impedit expedita praesentium! Amet, enim delectus.
+
+
+                </p>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
