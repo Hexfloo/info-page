@@ -1,6 +1,7 @@
 # info-page
 A veeery simple info page, with Bootstrap v5. <br>
 Made this to practice Bootstrap. <br><br>
+Includes a navbar with social media icons, two paragraphs and an accordion menu. <br>
 Fully responsive!
 
 
